@@ -18,6 +18,7 @@ const Appointment = () => {
             [name]: value
             }
         })
+        form.description= ""
     }
   return (
     <div id='Appointment' className='grid h-screen grid-flow-row bg-black overflow-hidden items-center md:grid-flow-col w-full gap-10 md:gap-0'>
