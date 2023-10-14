@@ -2,9 +2,9 @@ import image from '../assets/4.jpg'
 
 const Main = () => {
   return (
-    <main id='Home' className='flex h-screen flex-col gap-10 md:gap-20 pt-20 relative'>
+    <main id='Home' className='flex h-screen flex-col gap-10 md:gap-20 pt-20  relative'>
         <section className='flex flex-col'>
-            <img className='absolute md:w-4/5 top-4 -right-10 h-[90%]' src={image} alt="" />
+            <img className='absolute md:w-4/5 top-12 -right-10 h-[70%] md:h-[90%]' src={image} alt="" />
             <h1 className='md:text-4xl text-2xl pb-2 md:gap-2 md:leading-10 tracking-widest flex flex-col z-10 pt-44 font-black'>
                 <span>
                     we are here
@@ -18,7 +18,7 @@ const Main = () => {
             </span>
         </section>
 
-        <a className='px-6 z-10 py-3 w-fit  md:text-xl rounded-full bg-white/40' href="#Appointment">Request appointment</a>
+        <a className='px-6 z-10 py-3 w-fit  md:text-xl rounded-full bg-slate-500 border duration-500 hover:bg-white hover:text-slate-700' href="#Appointment">Request appointment</a>
     </main>
   )
 }

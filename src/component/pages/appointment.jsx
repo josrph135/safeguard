@@ -23,7 +23,7 @@ const Appointment = () => {
   return (
     <div id='Appointment' className='grid h-screen grid-flow-row bg-black overflow-hidden items-center md:grid-flow-col w-full gap-10 md:gap-0'>
         <form action="https://getform.io/f/0e78ef00-9981-49bd-ae32-63dd74b73f15" method='POST' encType='multipart/form-data' className='w-4/5 mx-auto'>
-            <h1 className='md:text-2xl text-xl text-center font-bold pb-8'>
+            <h1 className='md:text-2xl text-xl text-center text-primary-0 font-bold pb-4'>
                 Request Appointment
             </h1>
             <input 
@@ -32,7 +32,7 @@ const Appointment = () => {
                 value={form.fname}
                 onChange={handlechange}
                 placeholder='NAME:'
-                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-semibold text-black bg-white/80 outline-none w-full mb-3'
+                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-medium text-black bg-white/80 outline-none w-full mb-3'
             />
             <input 
                 type="number" 
@@ -40,7 +40,7 @@ const Appointment = () => {
                 value={form.phone}
                 onChange={handlechange}
                 placeholder='PHONE:'
-                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-semibold text-black bg-white/80 outline-none w-full mb-3'
+                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-medium text-black bg-white/80 outline-none w-full mb-3'
             />
             <input 
                 type="email" 
@@ -48,12 +48,12 @@ const Appointment = () => {
                 value={form.email}
                 onChange={handlechange}
                 placeholder='EMAIL:'
-                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-semibold text-black bg-white/80 outline-none w-full mb-3'
+                className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-medium text-black bg-white/80 outline-none w-full mb-3'
             />
             <textarea placeholder='DESCRIBE YOUR QUESTION' 
             name='description' value={form.description} onChange={handlechange}
-            className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-semibold text-black bg-white/80 outline-none w-full' cols="30" rows="4"></textarea>
-            <button className='w-full py-2 rounded-xl text-black bg-gradient-to-tr from-amber-600 to-white/50'>Submit</button>
+            className='rounded-lg pl-4 py-2 text-sm sm:text-base md:text-xl placeholder:text-black placeholder:font-medium text-black bg-white/80 outline-none w-full' cols="30" rows="4"></textarea>
+            <button className='w-full py-2 rounded-xl text-white bg-primary-0 text-lg font-semibold hover:bg-primary-0/70'>Submit</button>
         </form>
         <img src={image} className='w-full' alt="" />
     </div>

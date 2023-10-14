@@ -20,9 +20,9 @@ const ourService = [
 ]
 const Services = () => {
   return (
-    <main id='Services' className='h-fit py-16 mt-20 scroll-mt-12 flex flex-col gap-8'>
+    <main id='Services' className='h-fit py-16 mt-32 md:mt-20 scroll-mt-12 flex flex-col gap-8'>
         <header className='flex justify-center w-2/3 mx-auto flex-col text-center gap-2 items-center'>
-            <h1 className='text-2xl font-bold bottom-4'>
+            <h1 className='text-2xl text-primary-0 font-bold bottom-4'>
                 Services we offer
             </h1>
             <p>
@@ -36,7 +36,7 @@ const Services = () => {
                         className="flex flex-col gap-4 justify-center items-center"
                 >
                     <img src={list.image} alt="" className='w-40' />
-                    <h1 className='text-xl font-bold'>
+                    <h1 className='text-lg md:text-xl font-semibold'>
                         {list.title}
                     </h1>
                     <p>

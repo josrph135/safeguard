@@ -10,7 +10,7 @@ import About from './component/pages/about'
 const App = () => {
   return (
     <div className='bg-black overflow-hidden text-white'>
-      <div className='lg:w-[70%] sm:w-[80%] w-[95%] mx-auto pt-8 uppercase'>
+      <div className='lg:w-[70%] sm:w-[80%] w-[95%] mx-auto uppercase'>
         <Header />
         <Main />
         <About />

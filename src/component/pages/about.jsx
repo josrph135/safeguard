@@ -20,9 +20,9 @@ const aboutUs = [
 ]
 const About = () => {
   return (
-    <main id="About" className="flex h-screen scroll-mt-16 gap-12 flex-col justify-center mt-32 md:mt-0 items-center">
+    <main id="About" className="flex h-[100vh] scroll-mt-16 gap-12 flex-col justify-center mt-44 sm:mt-0 items-center">
         <header className="flex w-2/3 flex-col justify-center items-center gap-4  sm:pt-0 text-center">
-            <h1 className="text-xl md:text-2xl font-bold ">
+            <h1 className="text-2xl text-primary-0 font-bold ">
                 Get to know us more
             </h1>
             <p className="text-sm md:text-base">
@@ -35,7 +35,7 @@ const About = () => {
                         className="flex flex-col gap-4 justify-center items-center"
                 >
                     <img src={list.image} alt="" className='w-40' />
-                    <h1 className='text-xl font-bold'>
+                    <h1 className='text-lg md:text-xl font-semibold'>
                         {list.title}
                     </h1>
                     <p>

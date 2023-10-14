@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <main id='Contact' className='flex md:flex-row-reverse h-screen py-20 flex-col item '>
         <section className='font-bold my-auto text-lg md:text-xl gap-6 flex flex-col'>
-            <h1 className='text-xl md:text-3xl'>
+            <h1 className='text-xl text-primary-0 md:text-2xl'>
                 Contacts
             </h1>
             <h2>
@@ -13,14 +13,14 @@ const Contact = () => {
             <h2>
                 07037770479
             </h2>
-            <h1 className='text-xl md:text-3xl'>
+            <h1 className='text-x pt-6 l md:text-2xl'>
                 Working Hours
             </h1>
             <h2>
                 24 hours 7days a week
             </h2>
         </section>
-        <img src={image} alt="" className='md:w-2/3'/>
+        <img src={image} alt="" className='md:w-2/3 h-2/3'/>
     </main>
   )
 }
