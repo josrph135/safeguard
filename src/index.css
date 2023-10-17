@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .header{
+        @apply text-2xl text-primary-0 md:text-3xl capitalize font-bold 
+    }
+    .text{
+        @apply text-base md:text-lg lg:text-xl
+    }
+    .subhead{
+        @apply text-xl md:text-2xl font-semibold text-primary-0
+    }
+}
