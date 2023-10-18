@@ -22,7 +22,7 @@ const Appointment = () => {
     }
   return (
     <div id='Appointment' className='grid h-screen grid-flow-row bg-black overflow-hidden items-center md:grid-flow-col w-full gap-10 md:gap-0'>
-        <form action="https://getform.io/f/0e78ef00-9981-49bd-ae32-63dd74b73f15" method='POST' encType='multipart/form-data' className='w-[70%] mx-auto'>
+        <form action="https://getform.io/f/9b7521f8-4736-47d0-a282-fd03e258845e" method='POST' encType='multipart/form-data' className='w-[70%] mx-auto'>
             <h1 className='header pb-4'>
                 Request Appointment
             </h1>

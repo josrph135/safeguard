@@ -20,13 +20,13 @@ const Contact = () => {
                 <span>+2348102563985 <br /> +237085704201</span>
             </h2>
             <section className='flex flex-row justify-evenly md:text-3xl text-xl '>
-                <a className='text-primary-0 duration-300' href="">
+                <a target='blank' className='text-primary-0 duration-300' href="https://www.facebook.com/SafeguardPetCare">
                     <FaFacebook/>
                 </a>
-                <a className='text-primary-0 duration-300' href="">
+                <a target='blank' className='text-primary-0 duration-300' href="https://twitter.com/Heryenivic?t=HbIESE1tFlgRXGVU5LDEFQ&s=08">
                     <FaTwitter/>
                 </a>
-                <a className='text-primary-0 duration-300' href="#Safeguardpetcare@gmail.com">
+                <a target='blank' className='text-primary-0 duration-300' href="mailto:Safeguardpetcare@gmail.com">
                     <SiGmail/>
                 </a>
             </section>

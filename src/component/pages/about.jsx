@@ -21,7 +21,7 @@ const aboutUs = [
 const About = () => {
   return (
     <main>
-        <section id="About" className="flex h-[100vh] scroll-mt-16 gap-12 flex-col justify-center mt-44 sm:mt-0 items-center">
+        <section id="About" className="flex h-[100vh] scroll-mt-16 gap-12 flex-col justify-center  sm:mt-0 items-center">
             <header className="flex w-2/3 flex-col justify-center items-center gap-4  sm:pt-0 text-center">
                 <h1 className="header">
                     Get to know us more
