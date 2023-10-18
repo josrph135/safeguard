@@ -36,7 +36,7 @@ const Header = () => {
             {link.map((link, i) => 
                 <ul className='flex flex-row divide-x-2 divide-white md:text-lg  font-semibold ' key={i}>
                     {link.title.map((link,i) => 
-                    <li className='px-4' key={i}><a className='hover:border-b-2 duration-300 text-white/70 hover:border-primary-0 pb-1' href={`#${link}`}>{link}</a></li>)}
+                    <li className='px-4' key={i}><a className='hover:border-b-2 duration-300 border-2 border-black hover:text-white/90 text-white/70 hover:border-primary-0 pb-1' href={`#${link}`}>{link}</a></li>)}
                 </ul>
             )}
         </nav>

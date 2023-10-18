@@ -50,7 +50,7 @@ const Main = () => {
             animate={control}
             className='z-10'
         >
-            <a className='px-6 z-10 py-3 w-fit  md:text-lg rounded-full bg-primary-0/50 text-base border duration-500 hover:bg-white hover:text-slate-700 capitalize tracking-[2px] font-bold' href="#Appointment">Request appointment</a>
+            <a className='px-6 z-10 py-3 w-fit  md:text-lg rounded-full bg-primary-0/50 text-base border duration-500 hover:bg-white hover:text-slate-700 capitalize font-bold' href="#Appointment">Request appointment</a>
         </motion.div>
         
     </main>
