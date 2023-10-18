@@ -20,7 +20,7 @@ const Main = () => {
         <section className='flex flex-col'>
             <img className='absolute md:w-[70%] top-12 right-10 h-[70%] md:h-[100%]' src={image} alt="" />
             
-            <h1 className='md:text-5xl text-3xl pb-2 md:gap-2 md:leading-10 tracking-widest flex flex-col z-10 pt-44 font-black'>
+            <h1 className='md:text-3xl text-xl pb-2 md:gap-2 md:leading-10 tracking-widest flex flex-col z-10 pt-44 font-black'>
                 <motion.div
                     variants={{hidden: {opacity: 0, x:-75}, visible: {opacity: 1, x:0}}}
 					initial={"hidden"}
@@ -50,7 +50,7 @@ const Main = () => {
             animate={control}
             className='z-10'
         >
-            <a className='px-6 z-10 py-3 w-fit  md:text-xl rounded-full bg-primary-0/50 text-lg border duration-500 hover:bg-white hover:text-slate-700 capitalize tracking-[2px] font-bold' href="#Appointment">Request appointment</a>
+            <a className='px-6 z-10 py-3 w-fit  md:text-lg rounded-full bg-primary-0/50 text-base border duration-500 hover:bg-white hover:text-slate-700 capitalize tracking-[2px] font-bold' href="#Appointment">Request appointment</a>
         </motion.div>
         
     </main>
